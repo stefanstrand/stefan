@@ -1,0 +1,15 @@
+mymodule.content:
+  path: '/mymodule'
+  defaults:
+    _controller: '\Drupal\mymodule\Controller\FirstController::content'
+    _title: 'My First Page and Menu Item'
+  requirements:
+    _permission: 'access content'
+
+mymodule.secret:
+  path: '/mymodule/secret/{count}'
+  defaults:
+    _controller: '\Drupal\mymodule\Controller\FirstController::secret'
+    _title: 'A secret page'
+  requirements:
+    _permission: 'access content'
