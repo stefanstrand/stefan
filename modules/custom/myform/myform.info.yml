@@ -1,0 +1,4 @@
+name: My Form
+description: Just a test module creating a form
+core: 8.x
+type: module
